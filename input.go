@@ -4,5 +4,6 @@ package main
 import . "github.com/jonasagx/csutils"
 
 func main() {
-	Print("Write your name then press ENTER, please: ")
+	var name string = ReadInput("Write your name then press ENTER, please: ")
+	Print(name)
 }
