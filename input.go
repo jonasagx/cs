@@ -10,10 +10,15 @@ import (
 func main() {
 	//Prints the message
 	fmt.Print("Write your name then press ENTER, please: ")
-	//Reads the input
-	scan := bufio.NewScanner(os.Stdin)
-	//Scan advances the Scanner to the next token, which will then be available through the Bytes or Text method.
+	
+	//Reads the text input
+	var scan = bufio.NewScanner(os.Stdin)
+	
+	//Check if anything was passed as input and extract it
 	scan.Scan()
-	//Prints on the terminal
-	fmt.Println("Hi " + scan.Text())
+	//Put the input in a variable of type string
+	var name string = scan.Text()
+	
+	//Prints the input on the terminal
+	fmt.Println("Hi " + name)
 }
