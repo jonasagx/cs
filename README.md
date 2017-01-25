@@ -1,5 +1,5 @@
 # Goal
 This repository has a collection of examples I'm using to teach Jack about:
-  - Basic notions of algorithms
+  - Algorithms design
+  - Systems design
   - Golang
-  - Systems' design
