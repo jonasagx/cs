@@ -5,6 +5,7 @@ import . "github.com/jonasagx/csutils"
 
 func main() {
 	const daysPerYearOnEarth int = 365
+	const daysPerYearOnVenus int = 225
 
 	var name string
 	var nameLength int
@@ -15,6 +16,6 @@ func main() {
 	Print("The name", name, "has", nameLength, "characters")
 
 	var ageInYears int = ReadInteger("Write your age please, then press ENTER: ")
-	var ageInDays = ageInYears * daysPerYearOnEarth
-	Print(name, "you've lived", ageInDays, "days")
+	var ageInDays = ageInYears * daysPerYearOnVenus
+	Print(name, "you've lived", ageInDays, "days on Venus")
 }
