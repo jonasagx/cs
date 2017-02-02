@@ -33,7 +33,7 @@ func main() {
 		mass=mass-decimals
 		mass=mass+1
 	}
-	if decimals<0.5{
+	if decimals < 0.5 {
 		mass=mass-decimals
 	}
 	//end result
